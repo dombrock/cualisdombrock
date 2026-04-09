@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LSC555 Assignment 2 - Ryan Dombrock</title>
+		<meta name="keywords" content="CUA, LIS, 555, HTML, System Analysis" />
+		<style type="text/css">
+		h1{color:red;}
+		h2{color:red;}
+		</style>
+
+	</head>
+
+	<body style="background-color:silver; border:2px solid red;">
+		<h1>Assignment 2: System Analysis and Usability Test</h1>
+		<p>Student: Ryan Dombrock<br />
+		   Date: 10 April 2026<br />
+		   Digital Collection: The Tower Archive (1922 - 2018) (<a href="https://cuislandora.wrlc.org/islandora/object/cuislandora%3A67501">https://cuislandora.wrlc.org/islandora/object/cuislandora%3A67501</a>)
+		</p>
+		<img src = "https://stor.artstor.org/stor/15c73f1b-a920-49bc-ab79-939afb379a2c_size2">
+		<h2>Assignment Notes</h2>
+		<p>The link provided (<a href="https://cuislandora.wrlc.org/islandora/object/cuislandora%3A67501">https://cuislandora.wrlc.org/islandora/object/cuislandora%3A67501</a>) in the assignment instructions redirects to: <a href="https://redirects.wrlc.org">https://redirects.wrlc.org</a> which holds a table that suggests the proper new resource link for the legacy link <a href="https://cuislandora.wrlc.org/">https://cuislandora.wrlc.org/</a> is <a href="https://www.jstor.org/site/catholic-university/">https://www.jstor.org/site/catholic-university/</a>. This link takes the user to a JSTOR site containing items from 22 different Catholic University Collections. The user must then scroll and navigate to find 'The Tower' which is listed to contain 2,262 items. Clicking on this section directs the user to the following link: <a href="https://www.jstor.org/site/catholic-university/tower/">https://www.jstor.org/site/catholic-university/tower/</a>. This is the system that is analyzed for this assignment.
+		</p>
+		<img src = "thetower.png" width="443" height="112">
+		<h2>Overview on the System</h2>
+		<p>The site holds a description of the Tower with a search box to search within the collection on the top half of the website and if a user scrolls down there are four submenus with images and listing archives of The Tower divided by date using the ranges 1922-1940, 1941-1960, 1961-1980, 1981-2000, ad 2001-2020. The left hand side of the bottom half of the page contains drop down menus to refine results, however, due to the nature of the content in the collection all being of one content type and in a single language, the date menu is the only actual way in which the results can be refined. Somewhat confusingly, the top portion of the website retains a JSTOR search bar, which if used, will search the JSTOR database and not just the collection of The Tower.
+		</p>
+		<img src = "towerinfo.png" width="310" height="293">
+		<h2>Inputs and Outputs</h2>
+		<ul>
+			<li>The table below displays a list of several inputs and outputs of the system:<br />
+			<table border=1">
+				<tr>
+					<th>Inputs</th>
+					<th>Outputs</th>
+				</tr>
+				<tr>
+					<td>User provided search term(s)</td>
+					<td>List of Tower Issues containing search term(s) which can be sorted by relevance, newest, or oldest</td>
+				</tr>
+				<tr>
+					<td>User clicks on one of the subsections of The Tower grouped in two decade time periods </td>
+					<td>Chronological listing of all Tower issues from this period with options to download, save, or cite</td>
+				</tr>
+				<tr>
+					<td>Click on 'Cite' button </td>
+					<td>MLA/Chicago/APA citation formats with options to copy or multiple options to export (NoodleTools/Refworks/EasyBib/RIS file/text file)</td>
+				</tr>
+				<tr>
+					<td>Click on an individual Tower Issue</td>
+					<td>Opens PDF version of selected issue in browser window</td>
+				</tr>
+				<tr>
+					<td>Click on 'Download' button</td>
+					<td>Page for individual issue with item details on the left including a direct URL link to the issue page and a scrollable digital copy of the full issue on the right-hand side as an imbedded object</td>
+				</tr>
+			</table>
+			<li>Image below shows the search results heading displayed when the user selects one of the two decade subsections:<br />
+			<img src = "searchresults.png" width="500" height="100">
+			<li>Image below shows an example of a selected individual search result for user specified search terms:<br />
+			<img src = "archiveresult.png" width="700" height="400">
+		</ul>
+		<h2>Major Strengths and Weaknesses of the System</h2>
+		<ul>
+			<li>Strengths:<br />
+			    -Consistency and Standards: For the most part the buttons do what they say they will. Cite/Save/Download options are very easily identifiable and perform as advertised. The search inputs were clearly labeled and it was clear how to search within results, refine results and sort results. <br />
+			    -Aesthetic and Minimalist Design: Though initially the hosting of the collection into the bigger JSTOR formatting seemed at least a little distracting and potentially confusing, after using the site for a period of time, the minimalist nature of it presented as more of a benefit. I knew to ignore the refine results options except to narrow by date as well as the header menu to search JSTOR content. The actual navigation options within The Tower collection was pretty straightforward and became easy to iterate on searches by using different terms and return to search results quickly. Though there are issues with the actual relevancy of search results, the minimalist design makes the actual navigation and physical act of iterative searching straightforward.
+			</li>
+			<li>Weaknesses:<br />
+			    -Flexibility and Efficiency of Use: Search tool remains cumbersome to utilize and a lot of extra effort is required by the user to determine if a given result that has a matching term somewhere in the issue is actually of relevance. Additionally, navigation to the relevant area of a given issue is difficult. When a user selects the issue, the main page for the issue is loaded and the user must search within the text manually to find the matching terms. After pulling up multiple articles, it was noted that there is a 'Search matches' submenu on the left side, however, this only notes the page(s) where the search match(es) were noted and the user must still hunt within the page(s), often across multiple articles to find the match and determine its relevancy. This shortfall in search effectiveness is highly inefficient. The image above shows an example of this issue indicating three results within the selected issue where the user is left to hunt the issue text for the actual matches.<br /> 
+			   -Help and Documentation: When difficulties were encountered in some initial search queries, one might select the 'Search help' link seeking help searching within The Tower collection, however, the help resources are broad and for JSTOR as a whole entity with no specific help evidently available for The Tower collection specifically. Likewise all information on the 'Contact Us' page are for JSTOR entities and not specific to CUA Collections. These are tradeoffs of hosting the collection on the JSTOR infrastructure, but it seems like there could be some specific information added to the CUA collections section to provide general tips on engaging with the individual collections and a way to contact CUA points of contact for users needing collection specific assistance. 
+			</li>
+		</ul>
+	<h2>Comparison of Results from Heuristic Review and Mini-Usability Test</h2>
+		<p>The user test also indicated that there was good up front information about the content of the collection and most navigation buttons functioned intuitively. The ability to randomly browse through the archive was quite simple and the user had a positive experience interacting with individual issues of The Tower in the archive. This general ease of navigation and consistency and standards matched generally with the major strengths of the heuristic analysis. Where the heuristic analysis noted that the search tool was cumbersome, the usability test determined it to be so unhelpful that it was abandoned to simple chronological browsing for the desired information. It should be noted that the functionality of the search tools is a complete failure if a user can be turned off so quickly. Perhaps this was underestimated in the heuristic analysis as it was conducted by an individual with more recent experience searching archives and databases whereas for a complete novice, the search tools were even less intuitive or useful. A suggested improvement for the system would be to include some basic instructions or tips to help a user utilize the search tools in an effective way or to provide some helpful resources if the user has difficulties engaging in search. 
+		</p>
+		
+	</body>
+</html>
